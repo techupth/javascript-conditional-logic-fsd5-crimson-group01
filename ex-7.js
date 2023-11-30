@@ -1,6 +1,7 @@
 //Start coding here
-const greeting = "Hello ! 😁";
+const greetingMessage = "Hello ! 😁";
 
-greeting();
-
-console.log("This line will be executed without any error.");
+function greeting(message) {
+  console.log(message);
+  console.log("This line will be executed without any error.");
+}
