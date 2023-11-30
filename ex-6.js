@@ -1,7 +1,11 @@
 let favoriteBooks = [];
 
 function addFavoriteBook(bookName) {
-  // Start coding here !
+  console.log(bookName);
+  if (bookName.includes("Beauty") ) {
+    favoriteBooks.push(bookName)
+  } 
+  //if ถ้าชื่อหนังสือมีคำว่า Beauty 
 }
 
 // Example case
